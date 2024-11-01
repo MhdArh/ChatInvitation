@@ -6,6 +6,20 @@
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
 		outline: 1px solid #2574A9;
 	}
+	.embeddedServiceInvitation > .embeddedServiceInvitationHeader {
+    width: inherit;
+    height: 32px;
+    line-height: 32px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    overflow: initial;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
 </style>
 
 <!-- Start of Invitations -->
