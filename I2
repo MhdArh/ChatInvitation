@@ -6,27 +6,13 @@
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
 		outline: 1px solid #2574A9;
 	}
-	.embeddedServiceInvitation > .embeddedServiceInvitationHeader {
-    width: inherit;
-    height: 32px;
-    line-height: 32px;
-    padding: 10px;
-    color: #FFFFFF;
-    background-color: #FF0000;
-    overflow: initial;
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-}
 </style>
 
 <!-- Start of Invitations -->
 <div class="embeddedServiceInvitation" id="snapins_invite" inert="true" aria-live="assertive" role="dialog" aria-atomic="true">
 	<div class="embeddedServiceInvitationHeader" aria-labelledby="snapins_titletext" aria-describedby="snapins_bodytext">
 		<img id="embeddedServiceAvatar"></img>
-		<span class="embeddedServiceTitleText" id="snapins_titletext">Need help?</span>
+		<span class="embeddedServiceTitleText" id="snapins_titletext">CM&F Agent</span>
 		<button type="button" id="closeInvite" class="embeddedServiceCloseIcon" aria-label="Exit invitation">&times;</button>
 	</div>
 	<div class="embeddedServiceInvitationBody">
